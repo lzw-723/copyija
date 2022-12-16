@@ -1,0 +1,16 @@
+{
+    "name": "copyija",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "description": "网页复制限制解除脚本",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "vite": "^3.2.4",
+        "vite-plugin-monkey": "^2.9.3"
+    }
+}
