@@ -1,3 +1,15 @@
+/* https://www.hrrsj.com/ */
 .marks {
+    pointer-events: none !important;
     display: none !important;
+    width: 0px !important;
+    height: 0px !important;
+}
+
+/* https://www.xuexila.com/ */
+body>div.gf_mouse {
+    pointer-events: none !important;
+    display: none !important;
+    width: 0px !important;
+    height: 0px !important;
 }
