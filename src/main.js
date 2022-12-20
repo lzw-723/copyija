@@ -19,7 +19,6 @@ window.clipboardData = {
 }
 window._addEventListener = window.addEventListener
 window.addEventListener = (type, listener, options) => {
-    console.log("hello", type);
     if (type == "copy") {
         console.log(listener);
         return;
@@ -34,6 +33,13 @@ window._addEventListener("copy", (e) => {
         console.log("copyija: 成功恢复复制文本", data);
     }
 })
+
+if (document.body.oncopy) {
+    document.body.oncopy = (e) => {
+        console.log("copyija: oncopy ", e);
+    }
+    console.log("copyija: 清除document.body.oncopy成功");
+}
 
 
 console.log("copyija: 启动成功");

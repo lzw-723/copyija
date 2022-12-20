@@ -1,7 +1,7 @@
 {
     "name": "copyija",
     "private": true,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "module",
     "description": "网页复制限制解除脚本",
     "scripts": {
