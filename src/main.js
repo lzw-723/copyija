@@ -41,5 +41,12 @@ if (document.body.oncopy) {
     console.log("copyija: 清除document.body.oncopy成功");
 }
 
+if (document.oncopy) {
+    document.oncopy = (e) => {
+        console.log("copyija: oncopy ", e);
+    }
+    console.log("copyija: 清除document.oncopy成功");
+}
+
 
 console.log("copyija: 启动成功");

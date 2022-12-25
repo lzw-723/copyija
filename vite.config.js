@@ -12,7 +12,14 @@ export default defineConfig({
                 author: 'lzw-723',
                 description: pg.description,
                 version: pg.version,
-                match: ['https://www.hrrsj.com/*', 'https://www.xuexila.com/*'],
+                match: [
+                    'https://www.hrrsj.com/*',
+                    'https://www.xuexila.com/*',
+                    'https://www.baihuawen.cn/*',
+                    'https://www.niubb.net/*',
+                    'https://www.51test.net/*',
+                    'http://www.xde6.net/*',
+                    'http://www.fanwen118.com/*'],
                 "run-at": 'document-start',
                 license: 'GPL-3'
             },
